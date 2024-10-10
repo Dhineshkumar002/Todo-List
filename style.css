@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+
+.book_content{
+    width: 25%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+}
+.book_content h2{
+    color: skyblue;
+}
+.book_content button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.add{
+    background-color: skyblue;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup{
+    position: absolute;
+    z-index: 2;
+    background-color: skyblue;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    display: none;
+}
+.popup form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popup form textarea{
+    width: 100%;
+    background: transparent;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.popup input::placeholder,.popup textarea::placeholder{
+    color: black;
+}
+.popup input:focus,.popup textarea:focus{
+    outline: none;
+}
+.popup button{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border: none;
+} 

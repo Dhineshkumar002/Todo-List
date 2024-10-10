@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Todo List</h1>
+    </div>
+    <div class="container">
+        <div class="book_content">
+            <h2>How to get success</h2>
+            <h5>Dk</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel est modi ipsum consequatur laborum, obcaecati nisi soluta possimus expedita veritatis dolores ducimus rem nesciunt ex laboriosam repellendus, porro consequuntur at.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" id="book_title" placeholder="Book Title">
+            <input type="text" id="book_author" placeholder="Book Author">
+            <textarea id="book_description" placeholder="Short Description"></textarea>
+        </form>
+        <button onclick="add()">ADD</button>
+        <button onclick="closepopup()">CANCEL</button>
+    </div>
+    <button class="add" onclick="openpopup()">+</button>
+</body>
+<script src="script.js"></script>
+</html>
